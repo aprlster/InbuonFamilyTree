@@ -1,0 +1,82 @@
+body {
+  height: 760px;
+  background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+}
+
+h2 {
+  font-family: 'Sacramento', Helvetica, Calisto MT, fantasy;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  text-decoration: overline;
+  }
+
+span {
+  font-family: 'Noto Sans JP';
+}
+ ul {
+   text-align: left;
+ }
+
+.top-box {
+  text-align: center;
+  padding: 200px;
+  margin: 95px;
+}
+.firstbox {
+  font-family: 'Russo One', Helvetica, Calisto MT, fantasy;
+  text-align: center;
+  padding: 2px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+  color: #000;
+}
+
+.top-box img {
+  width: 30px;
+}
+
+.firstbox img {
+  width: 300px;
+}
+
+.firstbox h1 {
+  font-size: 25px;
+}
+
+.secondbox {
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.firstgen {
+  margin-top: 10px;
+  text-align: center;
+}
+.secondgen {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .thirdgen {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+.namelist {
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+  color: #000;
+}
+
+.inkar {
+  margin: auto;
+  margin-bottom: 20px;
+}
