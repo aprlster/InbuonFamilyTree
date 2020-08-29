@@ -1,6 +1,5 @@
 body {
-  height: 760px;
-  background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+  background: linear-gradient(to bottom, #bdc3c7 0%, #e0eafc 100%);
 }
 
 h2 {
@@ -21,17 +20,16 @@ span {
 
 .top-box {
   text-align: center;
-  padding: 200px;
-  margin: 95px;
+  padding: 50px;
+  margin-bottom: 400px;
+  margin-top: 400px;
 }
 .firstbox {
   font-family: 'Russo One', Helvetica, Calisto MT, fantasy;
   text-align: center;
   padding: 2px;
-  margin-left: 400px;
-  margin-right: 400px;
-  background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
   color: #000;
+  margin-top: 100px;
 }
 
 .top-box img {
@@ -47,9 +45,9 @@ span {
 }
 
 .secondbox {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-right: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   text-align: center;
 }
 
@@ -68,15 +66,24 @@ span {
   }
 
 .namelist {
-  margin-left: 500px;
-  margin-right: 500px;
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to bottom, #ffffff 0%, #00ffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #c4e0e5 100%);
   color: #000;
+  border-radius: 50px;
 }
 
 .inkar {
   margin: auto;
   margin-bottom: 20px;
+}
+footer {
+  position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: #434343;
+ color: grey;
+ text-align: center;
+ font-size: 10px;
 }
