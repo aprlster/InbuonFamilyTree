@@ -15,7 +15,24 @@
   </head>
   <body>
  <div class="top-box">
+   <script type="text/javascript">
+       document.write();
+       var day = new Date();
+       var hr = day.getHours();
+       if (hr >= 0 && hr < 12) {
+           document.write("Good Morning!");
+       } else if (hr == 12) {
+           document.write("Hello! How are you!");
+       } else if (hr >= 12 && hr <= 17) {
+           document.write("Good Afternoon!");
+       } else {
+           document.write("Good Evening!");
+       }
+   </script>
+   <br>
+   <br>
    <img src="images/diamond.png" alt="">
+   <br>
    <span>DIAMOND JUBILEE SPECIAL</span>
    <h2>En dingin scroll tung rawh..</h2>
    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -24,11 +41,12 @@
  </div>
     <div class="firstbox">
       <img src="images/pupi.png" class="rounded-circle" alt="pupi-img">
-      <h1>Mr. Lalneimawi Inbuon <br /> le <br /> Mrs. Lalthanmawi</h1>
-      <p>Kum 1960 a innei, hai rila ra le suon hai</p>
+      <h1>Rev. Lalneimawi Inbuon <br /> le <br /> Mrs. Lalthanmawi</h1>
+      <p>Kum 1960 a innei, an rila ra le suon le par hai</p>
+      <span>(kum 2020 chena mi)</span>
     </div>
     <div class="secondbox">
-      <h2>I hriet nuom dan in thlang rawh </h2>
+      <h2>I hriet nuom danin thlang rawh </h2>
       <form class="firstgen" id="firstgen" method="post">
         <button class="btn btn-outline-info" type="button" name="First Generation" data-toggle="tooltip" data-placement="top" title="click rawh">First Generation (An Nauhai)</button>
       </form>
@@ -41,7 +59,8 @@
     </div>
 
     <footer>
-          <span>(c) MvStudio,</span><script> document.write(new Date().getFullYear());</script>
+          <span>Source of Information : INBUON PAHNAM THLA SUINA (GENEALOGY OF INBUON CLANS), 2017, by Rev. Lalneimawi Inbuon</span><br>
+          <span>(c) MvStudio, </span><script> document.write(new Date().getFullYear());</script>
     </footer>
 
     </div>
@@ -57,5 +76,6 @@
             location.href = "thirdgen.html";
         };
     </script>
+
   </body>
 </html>

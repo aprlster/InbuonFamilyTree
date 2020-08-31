@@ -22,7 +22,7 @@ span {
   text-align: center;
   padding: 50px;
   margin-bottom: 400px;
-  margin-top: 400px;
+  margin-top: 320px;
 }
 .firstbox {
   font-family: 'Russo One', Helvetica, Calisto MT, fantasy;
@@ -33,7 +33,7 @@ span {
 }
 
 .top-box img {
-  width: 30px;
+  width: 40px;
 }
 
 .firstbox img {
@@ -85,5 +85,5 @@ footer {
  background-color: #434343;
  color: grey;
  text-align: center;
- font-size: 10px;
+ font-size: 12px;
 }
