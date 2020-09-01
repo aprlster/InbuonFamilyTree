@@ -23,7 +23,7 @@ span {
   text-align: center;
   padding: 50px;
   margin-bottom: 400px;
-  margin-top: 320px;
+  margin-top: 250px;
 }
 .firstbox {
   font-family: 'Russo One', Helvetica, Calisto MT, fantasy;
@@ -95,6 +95,7 @@ footer {
   border-collapse: collapse;
   width: 100%;
   text-align: justify;
+  font-size: 15px;
 }
 
 #customers td, #customers th {
@@ -111,5 +112,5 @@ footer {
   padding-bottom: 12px;
   text-align: left;
   background-color: #c4e0e5;
-  color: white;
+  color: black;
 }
