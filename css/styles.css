@@ -23,7 +23,7 @@ span {
   text-align: center;
   padding: 50px;
   margin-bottom: 400px;
-  margin-top: 200px;
+  margin-top: 220px;
 }
 .firstbox {
   font-family: 'Russo One', Helvetica, Calisto MT, fantasy;
@@ -94,7 +94,7 @@ footer {
   font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  text-align: justify;
+  text-align:left;
   font-size: 12px;
 }
 
